@@ -17,4 +17,4 @@ RUN apt -y install xrdp kali-desktop-xfce
 # Other tools
 RUN apt -y install pip nano
 
-WORKDIR /home/user  # change user for your username
+WORKDIR /home/user  # change user to your username
