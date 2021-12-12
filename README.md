@@ -29,7 +29,3 @@ docker commit <docker_names> <user_repository>
     Dir: `localhost:<host_port>` <br>
     User: `root` <br>
     Passwd: `root`
-
-## Errors
-You may need to change the default port if you are using windows10,
-for me 3390 works fine.
