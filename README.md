@@ -26,8 +26,8 @@ docker commit <docker_names> <user_repository>
 - **Inside the host OS**
     connect to your docker image through a rdp client, you can use the default windows 10 RDP client.
 
-    Dir: `localhost:<host_port>`
-    User: `root`
+    Dir: `localhost:<host_port>` <br>
+    User: `root` <br>
     Passwd: `root`
 
 ## Errors
