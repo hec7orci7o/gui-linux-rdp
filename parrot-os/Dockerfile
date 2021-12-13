@@ -9,7 +9,7 @@ RUN apt -y update && apt -y full-upgrade && apt -y dist-upgrade && apt -y autore
 RUN apt -y install pciutils usbutils
 
 # xrdp + desktop
-RUN apt -y install xrdp parrot-xfce
+RUN apt -y install dbus-x11/rolling xrdp parrot-xfce
 
 # Kali Linux top10 metapackages: https://www.kali.org/tools/kali-meta/
 RUN apt -y install aircrack-ng hydra nmap wireshark burpsuite john responder crackmapexec metasploit-framework sqlmap \ 
