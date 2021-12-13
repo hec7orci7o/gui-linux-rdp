@@ -1,5 +1,3 @@
-# Work in progress
-
 ## Docker related
 ### Build th image
 ```sh
