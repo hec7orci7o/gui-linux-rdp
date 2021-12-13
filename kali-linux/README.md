@@ -13,7 +13,7 @@ docker commit <docker_names> <user_repository>
 ```
 
 ## Usage related
-- **Inside the docker image:** start the xrdp protocol & change passwd <br>
+- **Inside the docker image:** start the xrdp server & change passwd <br>
     ```shell
     ┌──(root💀monkeys)-[/home/user]
     └─# service xrdp start
