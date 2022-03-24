@@ -1,5 +1,5 @@
 ## Docker related
-### Build th image
+### Build the image
 ```sh
 docker build . -t parrot
 ```
